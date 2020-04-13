@@ -1,0 +1,26 @@
+input {
+    width: 50px;
+    text-align: center;    
+
+}
+
+td {
+    min-width: 20px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.box{
+    border: 1px solid #dddddd; padding-bottom: 20px;padding-top: 10px;
+}
+
+.user-input{
+    border: 1.5px  black  solid;
+}
+.user-input-result{
+    border: 1.5px  black  solid;
+}
+
+.btn{
+border-radius: 0px;
+}

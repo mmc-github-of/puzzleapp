@@ -12,8 +12,7 @@
                 <td><input value={{x1}} readonly /></td>
                 <td>+</td>
                 <td><input value={{y1}} readonly /></td>
-                <td> = <input tabindex="1" class="user-input" type="number" [(ngModel)]="x1y1"
-                    (keyup)="onKey($event,'x1y1')" /></td>
+                <td> = <input tabindex="1" class="user-input" type="number" [(ngModel)]="x1y1" /></td>
               </tr>
               <tr>
                 <td>+</td>
@@ -25,24 +24,21 @@
                 <td><input value={{x2}} readonly /></td>
                 <td>-</td>
                 <td><input value={{y2}} readonly /></td>
-                <td> = <input tabindex="2" class="user-input" type="number" [(ngModel)]="x2y2"
-                    (keyup)="onKey($event,'x2y2')" /></td>
+                <td> = <input tabindex="2" class="user-input" type="number" [(ngModel)]="x2y2" /></td>
               </tr>
               <tr>
-                <td> = <br><input tabindex="3" class="user-input" type="number" [(ngModel)]="x1x2"
-                    (keyup)="onKey($event,'x1x2')" /></td>
+                <td> = <br><input tabindex="3" class="user-input" type="number" [(ngModel)]="x1x2" /></td>
                 <td></td>
-                <td> = <br><input tabindex="4" class="user-input" type="number" [(ngModel)]="y1y2"
-                    (keyup)="onKey($event,'y1y2')" /></td>
+                <td> = <br><input tabindex="4" class="user-input" type="number" [(ngModel)]="y1y2" /></td>
                 <td>
                   <br>
-                  &nbsp; <button tabindex="5" class="btn btn-sm btn-success" (click)="calculateData()">Solve</button>
+                  &nbsp; <button tabindex="5" class="btn btn-sm btn-success" (click)="calculateData()">
+                    Solve</button>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
-
       </div>
     </div>
   </div>
