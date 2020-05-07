@@ -3,17 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // <== add the imports!
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AboutComponent } from './about/about.component'; // <== add the imports!
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,                               // <========== Add this line!
-    ReactiveFormsModule                        // <========== Add this line!
+    FormsModule,                               
+    ReactiveFormsModule                        
   ],
   providers: [],
   bootstrap: [AppComponent]
